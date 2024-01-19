@@ -1,0 +1,52 @@
+#testimonials {
+    .testimonials {
+
+        background-image: url('../../../assets/images/hamidasimage6.jpg');
+        padding: 220px 0px;
+        height: 300px;
+
+        .container {
+            text-align: center;
+
+            .my_testimonials {
+                color: white;
+
+                .upper {
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    .box {
+                        height: 2px;
+                        width: 400px;
+                        background-color: orange;
+                    }
+
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+
+                .main_side {
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    .one {
+                        font-weight: 600;
+                    }
+
+                    .df {
+
+                        // display: flex;
+                        .orange {
+                            color: orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

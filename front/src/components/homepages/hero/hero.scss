@@ -1,0 +1,74 @@
+#hero {
+    margin-top: -119px;
+
+    .hero {
+        background-image: url('../../../assets/images/hamidasimage4.jpg');
+        height: 890px;
+        // background-size: contain;
+        // background-position: center;
+        // background-repeat: no-repeat;
+
+        .container {
+            .my_hero {
+                padding-top: 300px;
+                display: flex;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .box_left {
+                    border: 1px solid;
+                    position: absolute;
+                    margin-left: 60px;
+                    left: 0;
+                    font-size: 20px;
+                    margin-top: 50px;
+
+                    ul {
+                        .orange {
+                            color: orange;
+                        }
+
+                        line-height: 30px;
+                        margin-left: -25px;
+                        padding-right: 15px;
+
+                        li {
+                            list-style: none;
+                        }
+                    }
+                }
+
+                .midd {
+
+
+
+                    .df {
+                        display: flex;
+                        gap: 3px;
+                        align-items: center;
+                    }
+
+                    h1 {
+                        font-size: 100px;
+                    }
+
+                    .box {
+
+                        background-color: orange;
+                        width: 10px;
+                        height: 10px;
+                        margin-top: 54px;
+
+                    }
+
+                    p {
+                        margin-top: -85px;
+                        margin-left: 500px;
+                    }
+                }
+            }
+        }
+    }
+}

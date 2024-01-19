@@ -1,0 +1,71 @@
+#contact {
+    .contact {
+        background-image: url('../../../assets//images/hamidasimage8.jpg');
+        background-position: center;
+        background-size: contain;
+        height: 1100px;
+
+        .container {
+            .my_contact {
+                display: flex;
+                justify-content: center;
+
+                .form_box {
+                    background-color: white;
+                    margin: 200px;
+                    padding: 90px;
+                    text-align: center;
+
+                    .upper {
+                        padding-bottom: 20px;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+
+                        .box {
+                            height: 2px;
+                            width: 250px;
+                            background-color: orange;
+                        }
+
+                        h1 {
+                            font-size: 40px;
+                        }
+                    }
+
+                    .inputs {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+
+                        .inp {
+                            width: 48%;
+                            background-color: rgb(206, 217, 213);
+                            padding: 10px;
+                        }
+
+                    }
+
+                    .textarea {
+                        background-color: rgb(206, 217, 213);
+                    }
+
+                    button {
+                        margin-top: 30px;
+                        padding: 15px 25px;
+                        background-color: orange;
+                        border: none;
+                    }
+                }
+            }
+
+            .footer {
+                text-align: center;
+                font-size: 16px;
+                color: white;
+            }
+        }
+    }
+}

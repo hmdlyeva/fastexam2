@@ -1,0 +1,50 @@
+#service {
+    .service {
+        .container {
+            .my_service {
+                padding: 120px 0px;
+
+                .upper {
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    .box {
+                        height: 2px;
+                        width: 400px;
+                        background-color: orange;
+                    }
+
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+
+                .years {
+                    padding-top: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 40px;
+
+                    .year {
+                        font-size: 24px;
+                        text-align: center;
+
+                        p {
+                            font-weight: 600;
+                        }
+
+                        span {
+                            font-size: 20px;
+                        }
+
+                        width: 450px;
+
+                    }
+                }
+            }
+        }
+    }
+}
